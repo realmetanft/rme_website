@@ -132,11 +132,11 @@ const NftItem = ({ img, number = 0, price = 0, passRef }) => {
         height={400}
         style={{ borderRadius: 10 }}
         src={img}
-        alt="The Weirdos"
+        alt="RME Food Universe"
       />
       <Details>
         <div>
-          <span>Weirdos</span> <br />
+          <span>RME Universe</span> <br />
           <h1>#{number}</h1>
         </div>
 

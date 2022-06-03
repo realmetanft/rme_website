@@ -129,43 +129,93 @@ const Carousel = () => {
       >
         <SwiperSlide>
           {" "}
-          <img width={500} height={400} src={img1} alt="The Weirdos" />{" "}
+          <img
+            width={500}
+            height={400}
+            src={img1}
+            alt="RME Food Univers"
+          />{" "}
         </SwiperSlide>
         <SwiperSlide>
           {" "}
-          <img width={500} height={400} src={img2} alt="The Weirdos" />{" "}
+          <img
+            width={500}
+            height={400}
+            src={img2}
+            alt="RME Food Univers"
+          />{" "}
         </SwiperSlide>
         <SwiperSlide>
           {" "}
-          <img width={500} height={400} src={img3} alt="The Weirdos" />{" "}
+          <img
+            width={500}
+            height={400}
+            src={img3}
+            alt="RME Food Univers"
+          />{" "}
         </SwiperSlide>
         <SwiperSlide>
           {" "}
-          <img width={500} height={400} src={img4} alt="The Weirdos" />{" "}
+          <img
+            width={500}
+            height={400}
+            src={img4}
+            alt="RME Food Univers"
+          />{" "}
         </SwiperSlide>
         <SwiperSlide>
           {" "}
-          <img width={500} height={400} src={img5} alt="The Weirdos" />{" "}
+          <img
+            width={500}
+            height={400}
+            src={img5}
+            alt="RME Food Univers"
+          />{" "}
         </SwiperSlide>
         <SwiperSlide>
           {" "}
-          <img width={500} height={400} src={img6} alt="The Weirdos" />{" "}
+          <img
+            width={500}
+            height={400}
+            src={img6}
+            alt="RME Food Univers"
+          />{" "}
         </SwiperSlide>
         <SwiperSlide>
           {" "}
-          <img width={500} height={400} src={img7} alt="The Weirdos" />{" "}
+          <img
+            width={500}
+            height={400}
+            src={img7}
+            alt="RME Food Univers"
+          />{" "}
         </SwiperSlide>
         <SwiperSlide>
           {" "}
-          <img width={500} height={400} src={img8} alt="The Weirdos" />{" "}
+          <img
+            width={500}
+            height={400}
+            src={img8}
+            alt="RME Food Univers"
+          />{" "}
         </SwiperSlide>
         <SwiperSlide>
           {" "}
-          <img width={500} height={400} src={img9} alt="The Weirdos" />{" "}
+          <img
+            width={500}
+            height={400}
+            src={img9}
+            alt="RME Food Univers"
+          />{" "}
         </SwiperSlide>
         <SwiperSlide>
           {" "}
-          <img width={500} height={400} src={img10} alt="The Weirdos" />{" "}
+          <img
+            width={500}
+            height={400}
+            src={img10}
+            alt="RME Food Univers"
+          />{" "}
         </SwiperSlide>
       </Swiper>
     </Container>

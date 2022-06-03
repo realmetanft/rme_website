@@ -11,7 +11,6 @@ const Section = styled.section`
   position: relative;
   display: inline-block;
   overflow: hidden;
-
 `;
 const Title = styled.h1`
   font-size: ${(props) => props.theme.fontxxl};
@@ -77,10 +76,9 @@ const Items = styled.ul`
 
       @media (max-width: 48em) {
         border-radius: 0 50px 0 50px;
-      text-align: left;
+        text-align: left;
         p {
           border-radius: 0 40px 0 40px;
-
         }
       }
     }
@@ -96,8 +94,6 @@ const Items = styled.ul`
     div {
       border-radius: 0 50px 0 50px;
       text-align: left;
-
-      
     }
     p {
       border-radius: 0 40px 0 40px;
@@ -121,7 +117,6 @@ const ItemContainer = styled.div`
 
   @media (max-width: 48em) {
     width: 70%;
-
   }
 `;
 
@@ -221,27 +216,22 @@ const Roadmap = () => {
           <RoadMapItem
             addToRef={addToRefs}
             title="Grand Opening"
-            subtext="Lorem Ipsum Dolor Sit Amet Consectetur, Adipisicing Elit. At Repellat Placeat, Adipisicing Elit. At Repellat Placeat."
+            subtext="Release of the RME UNIVERSE Website."
           />
           <RoadMapItem
             addToRef={addToRefs}
             title="Great Benefits"
-            subtext="Lorem Ipsum Dolor Sit Amet Consectetur, Adipisicing Elit. At Repellat Placeat, Adipisicing Elit. At Repellat Placeat."
+            subtext="Access to exclusive RME IRL events catering to the vast sectors of music, sports, events, partys and food events."
           />
           <RoadMapItem
             addToRef={addToRefs}
             title="Early Access"
-            subtext="Lorem Ipsum Dolor Sit Amet Consectetur, Adipisicing Elit. At Repellat Placeat, Adipisicing Elit. At Repellat Placeat."
+            subtext="Discounts / Early Bird Bonus / Referral Bonus / Airdrops of partner projects."
           />
           <RoadMapItem
             addToRef={addToRefs}
             title="New Merch"
-            subtext="Lorem Ipsum Dolor Sit Amet Consectetur, Adipisicing Elit. At Repellat Placeat, Adipisicing Elit. At Repellat Placeat."
-          />
-          <RoadMapItem
-            addToRef={addToRefs}
-            title="Holders Ranking"
-            subtext="Lorem Ipsum Dolor Sit Amet Consectetur, Adipisicing Elit. At Repellat Placeat, Adipisicing Elit. At Repellat Placeat."
+            subtext="Tshirts ~ Hoodies ~ Cap ~ Jackets ~ Shorts ~ Mugs ~ Pins ~ Emblems"
           />
         </Items>
       </Container>

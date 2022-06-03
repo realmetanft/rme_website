@@ -8,7 +8,7 @@ const Section = styled.section`
   min-height: 100vh;
   height: auto;
   width: 100vw;
-  background-color: #ffda55;
+  background-color: black;
   position: relative;
   color: ${(props) => props.theme.body};
   overflow: hidden;
@@ -93,8 +93,7 @@ const Faq = () => {
             ScrollTrigger={ScrollTrigger}
             title="WHERE CAN I VIEW MY NFTS?"
           >
-            Once minted or bought simply connect to your OpenSea account to view
-            your NFTs.
+            Once minted or bought simply open your wallet to view your NFTs.
           </Accordion>
           <Accordion
             ScrollTrigger={ScrollTrigger}
@@ -110,11 +109,11 @@ const Faq = () => {
             ScrollTrigger={ScrollTrigger}
             title="WHY DO WE NEED ROYALTIES?"
           >
-            The amount of royalties was fixed at 5% to finance the Weirdos
-            Club's projects. We have the ambition to organize multiple events
-            around the world in order to strengthen the community and build a
-            network of entrepreneurs and investors with the same mindset and
-            common interests.
+            The amount of royalties was fixed at 5% to finance the RME Universe
+            projects. We have the ambition to organize multiple events around
+            the world in order to strengthen the community and build a network
+            of food lovers, entertianment enthusiasts and the thrill seekers
+            with the same mindset and common interests.
           </Accordion>
         </Box>
         <Box>
@@ -122,29 +121,28 @@ const Faq = () => {
             ScrollTrigger={ScrollTrigger}
             title="HOW CAN I USE MY NFT?"
           >
-            You will be able to use your NFT as an avatar in the Metaverse and
-            our future video game. Holding also means that you are part of an
-            exclusive network of investors and entrepreneurs.
+            You will be able to use your NFT as an entry in the Metaverse and
+            our future events in IRL. Holding also means that you are part of an
+            exclusive network of early adopters of this transition.
           </Accordion>
           <Accordion
             ScrollTrigger={ScrollTrigger}
-            title="WHAT ARE THE WEIRDOS?
+            title="WHAT IS THE ORIGINS OF RME UNIVERSE?
 "
           >
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore
-            deserunt consequatur quisquam maxime molestias dolores ipsum,
-            exercitationem vel sint quidem aliquam modi quis impedit corporis
-            unde inventore fugiat provident in.
+            We are building the first NFT project on the Middle East, and we
+            want to make UAE the hub for great NFT projects in the Middle East.
+            We are a team of passionate entrepreneurs, developers, and
+            blockchain enthusiasts who want to bring more innovation to our
+            region.
           </Accordion>
           <Accordion
             ScrollTrigger={ScrollTrigger}
-            title="WHAT IS THE FUSION PROCESS?
+            title="HOW MANY ROUNDS OF THE NFTs ARE PLANNED?
 "
           >
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel enim
-            veritatis iusto officia. Exercitationem, ducimus reiciendis. Rem,
-            maxime, similique neque minus aliquam dolore doloremque laboriosam,
-            facilis quibusdam unde sint officia.
+            We are currently launching the first round of NFTs, and we plan to
+            launch the second round of NFTs in the coming months.
           </Accordion>
         </Box>
       </Container>
